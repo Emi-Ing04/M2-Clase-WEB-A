@@ -26,6 +26,7 @@
             <li><a href="#Selectores básicos">Selectores básicos</a></li>
             <li><a href="#Selectores universales y combinaciones">Selectores universales y combinaciones</a></li>
             <li><a href="#Display y tipos de cajas">Display y tipos de cajas</a></li>
+            <li><a href="#Pseudo-clases">Pseudo-clases</a></li>
     </ul>
     <section id="Selectores básicos">
         <h2>Selectores básicos</h2>
@@ -76,6 +77,25 @@
         <span class="display_inline"> Ejemplo de display inline</span>
         <div class="display_inline_block"> Ejemplo de display inline-block</div>
     </section>
+
+    <section id="Pseudo-clases">
+        <h2>Pseudo-clases</h2>
+        <p>Las pseudo-clases en CSS son palabras clave que se agregan a los selectores para especificar un estado especial del elemento seleccionado. Permiten aplicar estilos a elementos en función de su estado o posición en el documento.</p>
+        <u>
+            <li><strong>:hover:</strong> se aplica cuando el usuario pasa el cursor sobre un elemento.</li>
+            <li><strong>:focus:</strong> se aplica cuando un elemento recibe el foco, como al hacer clic en un campo de formulario.</li>
+            <li><strong>:active:</strong> se aplica al elemento activo. (por ejemplo, un botón presionado)</li>
+        </u>
+
+        <h3>Ejemplo:</h3>
+
+        <button class="pseudo_hover">Ejemplo de :hover</button>
+        <label for="input_text">Etiqueta para el campo de entrada</label>
+        <input type="text" id="input_text" class="pseudo_focus" placeholder="Ejemplo de :focus">
+        <button class="pseudo_active">Ejemplo de :active</button>
+
+
+
 </body>
 </html>
 

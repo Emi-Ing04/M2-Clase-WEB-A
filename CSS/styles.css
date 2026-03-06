@@ -66,3 +66,67 @@ body {
     color: #0f0f06;
     padding: 5px;
 }
+
+.pseudo_hover {
+    background-color: green;
+    color: #0f0f06;
+    font-size: 20px;
+    border-radius: 15px;
+    border: 2px solid #0f0f06;
+    padding: 25px 10px 25px 10px;
+}
+
+.pseudo_hover:hover {
+    background-color: #F07167;
+    color: #FDFCDC;
+    font-size: 20px;
+    border-radius: 15px;
+    border: 2px solid #0f0f06;
+    padding: 40px 20px 40px 20px;
+}
+
+.pseudo_focus {
+    background-color: #FDFCDC;
+    color: #0f0f06;
+    font-size: 20px;
+    border-radius: 15px;
+    border: 2px solid #0f0f06;
+    padding: 25px 10px 25px 10px;
+}
+
+.pseudo_focus:focus {
+    background-color: #F07167;
+    color: #FDFCDC;
+    font-size: 20px;
+    border-radius: 15px;
+    border: 2px solid #0f0f06;
+    padding: 40px 20px 40px 20px;
+}
+
+.input_text {
+    background-color: #F07167;
+    color: #0f0f06;
+    font-size: 20px;
+    border-radius: 15px;
+    border: 2px solid #0f0f06;
+    padding: 25px 10px 25px 10px;
+    appearance: none;
+}
+
+,.pseudo_active {
+    background-color:  #F07167;
+    color: #0f0f06;
+    font-size: 20px;
+    border-radius: 15px;
+    border: 2px solid #0f0f06;
+    padding: 25px 10px 25px 10px;
+}
+
+.pseudo_active:active {
+    background-color: #F07167;
+    color: #FDFCDC;
+    font-size: 20px;
+    border-radius: 15px;
+    border: 2px solid #0f0f06;
+    padding: 40px 20px 40px 20px;
+}
