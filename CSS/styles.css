@@ -1,3 +1,8 @@
+{
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
 body {
     font-family: Arial, sans-serif;
     background-color: #0081A7;
@@ -20,3 +25,25 @@ body {
     font-weight: bold;
     font-style: italic;
 }
+
+/**Selector de etiqueta*/
+#selectores_universales_combinaciones{
+    color: #F07167;
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+#selectores_universales_combinaciones p{
+    color: #FDFCDC;
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#selectores_universales_combinaciones ul li strong{
+    color:  #0f0f06;
+    font-size: 16px;
+}
+
