@@ -1,4 +1,4 @@
-{
+* {
     font-family: Arial, sans-serif;
     margin: 20px;
 }
@@ -113,7 +113,7 @@ body {
     appearance: none;
 }
 
-,.pseudo_active {
+.pseudo_active {
     background-color:  #F07167;
     color: #0f0f06;
     font-size: 20px;
@@ -129,4 +129,86 @@ body {
     border-radius: 15px;
     border: 2px solid #0f0f06;
     padding: 40px 20px 40px 20px;
+}
+
+/*Propiedades básicas de texto*/
+p{
+    text-align: justify; /* Se alinea el texto dependiendo de el valor que se asigne*/    text-decoration: underline; /* Se subraya el texto*/
+    text-transform: uppercase; /* Transforma el texto a mayúsculas*/
+    letter-spacing: 2 px; /* Agrega espacio entre letras*/
+    word-spacing: 10 px; /* Agrega espacio entre palabras*/ 
+}
+
+/*Propeidades básicas de fuente*/
+h2{
+    font-family: 'Courier New', Courier, monospace; /* Cambia el tipo de letra*/
+    font-size: 40 px; /* Cambia el tamaño de la letra*/
+    font-weight: bold; /* Cambia el grosor de la letra*/
+    font-style: italic; /* Cambia el estilo de la letra*/
+}
+
+/*Propiedades básicas de color*/
+div{
+    color: #FDFCDC; /* Cambia el color del texto*/
+    background-color: #F07167; /* Cambia el color de fondo*/
+    opacity: 0.8; /* Cambia la opacidad del elemento*/
+}   
+
+h1{
+    text-align: center; /* Se alinea el texto dependiendo de el valor que se asigne*/
+    font-weight: bold; /* Cambia el grosor de la letra*/
+    color: #FDFCDC; /* Cambia el color del texto*/  
+}   
+
+.card_image{
+    width: 50%;
+    height: auto;
+    border-radius: 15%;
+}
+
+/* Las unnidades de medida en CSS son las siguientes:
+- px: píxeles, es la unidad más común para medir tamaños en la web.
+- em: unidades relativas al tamaño de la fuente del elemento padre. 1em es igual al tamaño de la fuente del elemento padre.
+- rem: unidades relativas al tamaño de la fuente raíz (generalmente el tamaño de la fuente del elemento <html>). 1rem es igual al tamaño de la fuente raíz.
+- %: porcentaje, se utiliza para establecer tamaños relativos al tamaño del elemento padre.
+- vw: unidades relativas al ancho de la ventana gráfica (viewport). 1vw es igual al 1% del ancho de la ventana gráfica.
+- vh: unidades relativas a la altura de la ventana gráfica. 1vh es igual al 1% de la altura de la ventana gráfica.
+- vmin: unidades relativas al menor valor entre el ancho y la altura de la ventana gráfica
+- vmax: unidades relativas al mayor valor entre el ancho y la altura de la ventana gráfica */
+
+.card{
+    width: 300px;
+    background-color: #c87522;
+    color: #0f0f06;
+    display: inline-block;
+    border-radius: 15px;
+    border: 2px solid #0f0f06;
+    /*Maregenes que ocupan una línea de código cada uno*/
+    /* margin-top: 15px;
+    margin-bottom: 30px;
+    margin-left: 45px;
+    margin-right: 60px;
+    Margenes que con una sola línea de código hace todo*/
+    /*margin: 15px 30px 45px 60px; /*Los valores se asignan en como manecilla de reloj */
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 10px 10px 20px #0f0f06; /*Agrega una sombra al elemento, los valores son: desplazamiento horizontal, desplazamiento vertical, desenfoque y color de la sombra*/   
+}
+
+.card-body{
+    padding: 10px;
+    /*text-align: center;*/
+}
+
+.card-body h3{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.card-body p{
+    text-align: justify;
+    font-size: 20px;
+    font-weight: bold;
 }
