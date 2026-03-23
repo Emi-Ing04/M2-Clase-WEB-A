@@ -177,6 +177,9 @@ h1{
 - vmax: unidades relativas al mayor valor entre el ancho y la altura de la ventana gráfica */
 
 .card{
+    position: relative;
+    top: 50px;
+    right: 10px;
     width: 300px;
     background-color: #c87522;
     color: #0f0f06;
@@ -212,3 +215,20 @@ h1{
     font-size: 20px;
     font-weight: bold;
 }
+
+.letras-libreta-rayada{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.whatsapp{
+    position: sticky;
+    top: 20px;
+}
+
+.whatsapp_image{
+    width: 50px;
+    cursor: pointer;
+}
+
+/*ejemplo de whatsapp_image sticky*/
+/* sticky es una mezcla entre relative y fixed*/
