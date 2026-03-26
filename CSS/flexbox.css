@@ -20,6 +20,11 @@ h1{
 .container{
     border: 2px solid black;
     display: flex;
+    /*flex-direction: column-reverse;*/
+    align-items: flex-end; /*Se pueden linear a la derehca, izquierda o al centro*/
+    justify-content: space-between; /*Alinea los elementos en el eje principal*/
+    /*align-items: funciona en el eje transversal y justify-content en el eje principal*/    
+    /*cuando se utilicen columnas se utiliza align-items para alinear en el eje principal y justify-content para utilizar la row y filas*/
 }
 
 .box{
@@ -27,4 +32,40 @@ h1{
     padding: 20px;
     margin: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.container2{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.subcontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.subcontainer2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.pinterest{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
